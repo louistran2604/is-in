@@ -2,6 +2,7 @@
 mitx 6.00.1x hw; check if char is in a string
 
 **here are the requirements:**
+
 We can use the idea of bisection search to determine if a character is in a string, so long as the string is sorted in alphabetical order.
 
 First, test the middle character of a string against the character you're looking for (the "test character"). If they are the same, we are done - we've found the character we're looking for!
@@ -12,5 +13,6 @@ Implement the function isIn(char, aStr) which implements the above idea recursiv
 
 As you design the function, think very carefully about what the base cases should be.
 
+*end of requirements*
 
 if you see any issues, please tell me! for me, this was my first big python project lol (again, cant really call it a project)
